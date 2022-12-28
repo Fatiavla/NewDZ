@@ -7,7 +7,7 @@ from addition import addition
 
 def write_file(name, st):
     with open(name, 'w') as data:
-        data.write(str_eq1)
+        data.write(st)
   
 
 
@@ -27,6 +27,7 @@ if __name__ == '__main__':
 
 write_file('first_file.txt', str_eq1)
 write_file('second_file.txt', str_eq2)
+write_file('addition_file..txt', str_final)
     # print(equation) 
     # str_equation = decode(equation) # Словарь передаем в декод ( в строку)
     # print(str_equation)
